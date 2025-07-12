@@ -1,26 +1,34 @@
 # Treasure Hunter App
 
-Treasure Hunter App is a desktop application written in **Java** that simulates a treasure hunting adventure. It is designed to provide an engaging single-player experience through a game-like interface, suitable for educational or entertainment purposes.
+A simple **Java console game** where the player tries to find a hidden treasure by guessing its location on a grid. The game provides distance-based hints to guide the player until they find the treasure.
 
 ---
 
-## Features
+## Gameplay Overview
 
-- Interactive map-based treasure hunt
-- AI logic or pathfinding for treasure placement
-- Simple, intuitive GUI for launching simulations
+- The program randomly hides a treasure on a grid.
+- The player enters coordinates to guess the treasure's location.
+- After each guess, the game displays how far the guess is from the treasure.
+- The game continues until the player finds the exact location.
 
 ---
 
-## Installation
+## Technologies Used
 
-### Prerequisites
+- Java (JDK 17 or above recommended)
+- Standard Java I/O and Math libraries
 
-- Java Development Kit (JDK) 17 or higher  
-- Any Java IDE (e.g., IntelliJ IDEA, Eclipse, VS Code)
+---
+
+## How to Run
+
+### Requirements
+
+- Java installed on your system (`java` and `javac` in terminal/command prompt)
 
 ### Steps
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone https://github.com/OsmanGundogdu/Treasure_Hunter_App.git
+   cd Treasure_Hunter_App
