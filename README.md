@@ -8,8 +8,6 @@ Treasure Hunter App is a desktop application written in **Java** that simulates 
 
 - Interactive map-based treasure hunt
 - AI logic or pathfinding for treasure placement
-- Multiple player types (e.g., smart agents, random walkers)
-- Real-time logging or summary after simulation
 - Simple, intuitive GUI for launching simulations
 
 ---
